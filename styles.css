@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Roboto";
 }
 
 .container {
@@ -14,6 +15,7 @@
 .header {
 	grid-column: 2 / 3;
 	display: grid;
+	padding: 1rem;
 }
 
 .top-bar {
@@ -34,6 +36,12 @@
 	justify-self: end;
 	margin-right: 1rem;
 	margin-left: 1rem;
+}
+
+.search > img:hover,
+.notification:hover,
+.pfp:hover {
+	cursor: pointer;
 }
 
 .search input {
@@ -76,7 +84,62 @@
 }
 
 .bottom-bar {
-	background-color: chocolate;
+	display: grid;
+	grid-template-columns: 4fr 2.5fr;
+}
+
+.greeting {
+	grid-column: 1 / 2;
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+}
+
+.greeting > img {
+	grid-column: 1 / 2;
+	height: 5rem;
+	border-radius: 50%;
+	margin-left: 1rem;
+}
+
+.greeting .text {
+	grid-column: 2 / 3;
+	align-self: center;
+}
+
+.text p {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.username {
+	font-size: 25px;
+}
+
+.buttons {
+	grid-column: 2 / 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.new,
+.upload,
+.share {
+	justify-self: center;
+	align-self: center;
+	margin-top: 25px;
+	padding: 1rem;
+	width: 8rem;
+	border: none;
+	border-radius: 25px;
+	background-color: #1992d4;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.buttons button:hover {
+	background-color: #136089;
+	cursor: pointer;
 }
 
 .sidebar {
