@@ -138,6 +138,12 @@
 	margin-left: 30px;
 }
 
+.logo,
+.main-links,
+.settings {
+	padding-right: 2rem;
+}
+
 .logo {
 	display: flex;
 	align-items: center;
