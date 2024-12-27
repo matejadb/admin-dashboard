@@ -133,12 +133,15 @@
 	gap: 40px;
 }
 
+.main-links,
+.settings {
+	margin-left: 30px;
+}
+
 .logo {
-	grid-row: 1;
-	display: grid;
-	grid-template-columns: 0.5fr 1fr;
+	display: flex;
 	align-items: center;
-	justify-items: start;
+	margin: 10px 0 0 10px;
 }
 
 .dashboard-icon {
@@ -151,9 +154,19 @@
 	font-weight: bold;
 }
 
+.logo a {
+	text-decoration: none;
+}
+
 .main-links,
 .settings {
-	line-height: 1.8;
+	line-height: 2.2;
+}
+
+.main-links div,
+.settings div {
+	display: flex;
+	align-items: center;
 }
 
 .main-links a,
@@ -162,6 +175,17 @@
 	color: #fff;
 	font-size: 25px;
 	font-weight: 500;
+	margin-left: 20px;
+}
+
+.main-links a:hover,
+.settings a:hover {
+	color: #c2c2c2;
+}
+
+.main-links div img,
+.settings div img {
+	height: 2rem;
 }
 
 .content {
