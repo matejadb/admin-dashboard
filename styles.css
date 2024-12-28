@@ -69,6 +69,20 @@
 	height: 2rem;
 }
 
+.notification-section button {
+	border: none;
+	background-color: #ffffff;
+}
+
+.notification-section button:hover {
+	cursor: pointer;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .notification-section .user-picture {
 	height: 4rem;
 	border-radius: 50%;
@@ -194,7 +208,7 @@
 	height: 2rem;
 }
 
-/*---------CONTENT SECTION-----------*/
+/*-----------CONTENT-----------*/
 .content {
 	display: grid;
 	grid-template: 1fr 1fr / 2.5fr 1fr;
@@ -202,6 +216,7 @@
 	padding-top: 20px;
 }
 
+/*----------PROJECT SECTION---------*/
 .project-section {
 	grid-row: 1 / 3;
 	display: grid;
