@@ -208,7 +208,7 @@
 	grid-template-rows: 0.1fr 1fr;
 }
 
-.project-section p {
+.tab-title {
 	margin: 0 30px;
 	align-self: center;
 	font-weight: 500;
@@ -226,10 +226,23 @@
 .project {
 	background-color: #ffffff;
 	width: 350px;
-	height: 190px;
+	height: 200px;
 	border-radius: 10px;
 	-webkit-box-shadow: inset 6px 0px 0px 0px #f0b429;
 	box-shadow: inset 6px 0px 0px 0px #f0b429;
+	text-align: start;
+	padding: 20px;
+}
+
+.project-share {
+	display: flex;
+	padding-top: 20px;
+	gap: 15px;
+	justify-content: end;
+}
+
+.project img {
+	height: 30px;
 }
 
 .announcement-section {
