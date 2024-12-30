@@ -259,6 +259,7 @@
 .announcements-container {
 	background-color: #ffffff;
 	display: grid;
+	height: 300px;
 }
 
 .announcement {
@@ -270,7 +271,15 @@
 .trending-container {
 	background-color: #ffffff;
 	display: grid;
+	height: 300px;
 }
 
 .trending {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+}
+
+.trending img {
+	height: 3rem;
+	border-radius: 50%;
 }
