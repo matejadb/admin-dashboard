@@ -207,3 +207,22 @@
 .settings div img {
 	height: 2rem;
 }
+
+/*--------------CONTENT----------------*/
+.content {
+	display: grid;
+	grid-template-columns: 2.5fr 1fr;
+}
+
+.projects-section {
+	grid-row: 1 / 3;
+	background-color: red;
+}
+
+.announcements-section {
+	background-color: blue;
+}
+
+.trending-section {
+	background-color: green;
+}
