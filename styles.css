@@ -231,6 +231,7 @@
 }
 
 .projects-container {
+	align-self: start;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
 	gap: 30px;
@@ -303,6 +304,8 @@
 }
 
 .announcements-container {
+	align-self: start;
+	justify-self: center;
 	background-color: #ffffff;
 	margin: 15px 15px 0 15px;
 	border-radius: 10px;
@@ -319,15 +322,21 @@
 	width: 300px;
 	align-self: center;
 	justify-self: center;
-	padding: 10px;
+	padding: 0px;
+}
+
+.announcement:first-child {
+	padding-top: 20px;
 }
 
 .announcement:last-child {
 	border: none;
+	padding-bottom: 20px;
 }
 
 .announcement p {
 	font-size: 15px;
+
 	color: #757575;
 }
 
@@ -348,6 +357,8 @@
 }
 
 .trending-container {
+	align-self: start; /* Aligns items to the start of the row */
+	justify-self: center; /* Centers items in the column */
 	background-color: #ffffff;
 	margin: 15px 15px 0 15px;
 	border-radius: 10px;
