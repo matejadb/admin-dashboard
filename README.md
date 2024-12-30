@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-This is a responsive Admin Dashboard created as part of The Odin Project's Intermediate HTML and CSS curriculum. It includes a sidebar, header, project display area, announcements, and trending sections, simulating a dashboard for managing projects and viewing key updates.
+This is a Admin Dashboard project created as part of The Odin Project's Intermediate HTML and CSS curriculum. It includes a sidebar, header, project display area, announcements, and trending sections, simulating a dashboard for managing projects and viewing key updates.
 
 ## Features
 
