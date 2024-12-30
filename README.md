@@ -23,6 +23,6 @@ This is a responsive Admin Dashboard created as part of The Odin Project's Inter
 
 ## Screenshot
 
-![Admin Dashboard Screenshot](./screenshots/project_v1.png.png)
+![Admin Dashboard Screenshot](./screenshots/project_v1.png)
 
 > **Note**: This project is not completely finished to my liking and may undergo further improvements in the future.
