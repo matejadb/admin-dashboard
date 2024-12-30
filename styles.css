@@ -221,7 +221,8 @@
 .projects-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-	gap: 20px;
+	column-gap: 20px;
+	row-gap: 26px;
 }
 
 .project {
@@ -241,7 +242,6 @@
 }
 
 .announcement {
-	background-color: #ffffff;
 }
 
 .trending-section {
