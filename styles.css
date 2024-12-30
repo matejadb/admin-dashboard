@@ -223,7 +223,7 @@
 	/*grid-template-rows: 0.1fr 1fr;*/
 }
 
-.tab-title {
+.project-tab-title {
 	margin: 20px 30px;
 	align-self: end;
 	font-weight: 500;
@@ -236,6 +236,7 @@
 	gap: 30px;
 	justify-items: center;
 	margin-top: 15px;
+	margin-left: 15px;
 }
 
 .project {
@@ -294,7 +295,7 @@
 	grid-template-rows: 0.1fr 1fr;
 }
 
-.announcement-section p {
+.announcement-tab-title {
 	margin: 20px 30px;
 	justify-self: start;
 	font-weight: 500;
@@ -303,10 +304,28 @@
 
 .announcements-container {
 	background-color: #ffffff;
-	margin-top: 15px;
+	margin: 15px 15px 0 15px;
 	border-radius: 10px;
-	width: 250px;
-	height: 100%;
+	width: 350px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcement {
+	border-bottom: 1px solid #757575;
+	width: 300px;
+	align-self: center;
+	justify-self: center;
+	padding: 10px;
+}
+
+.announcement:last-child {
+	border: none;
+}
+
+.announcement p {
+	font-size: 15px;
+	color: #757575;
 }
 
 .trending-section {
