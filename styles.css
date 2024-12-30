@@ -6,7 +6,6 @@
 }
 
 .container {
-	height: 100vh;
 	display: grid;
 	grid-template: 1fr 4fr / 1fr 4.5fr;
 }
@@ -212,17 +211,38 @@
 .content {
 	display: grid;
 	grid-template-columns: 2.5fr 1fr;
+	background-color: #e2e8f0;
 }
 
 .projects-section {
 	grid-row: 1 / 3;
-	background-color: red;
+}
+
+.projects-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	gap: 20px;
+}
+
+.project {
+	height: 193px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	border-left: 6px solid #f0b429;
+	-webkit-box-shadow: 7px 5px 8px 0px rgba(0, 0, 0, 0.28);
+	box-shadow: 7px 5px 8px 0px rgba(0, 0, 0, 0.28);
 }
 
 .announcements-section {
-	background-color: blue;
+}
+
+.announcements-container {
+	display: grid;
+}
+
+.announcement {
+	background-color: #ffffff;
 }
 
 .trending-section {
-	background-color: green;
 }
