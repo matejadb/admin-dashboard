@@ -18,7 +18,7 @@ This is a Admin Dashboard project created as part of The Odin Project's Intermed
 ## Technologies Used
 
 - HTML5
-- CSS3 (Grid and Flexbox)
+- CSS3 (Grid and Flex box)
 - Google Fonts (Roboto & Open Sans)
 
 ## Screenshot
