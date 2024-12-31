@@ -208,6 +208,22 @@
 }
 
 /*--------------CONTENT----------------*/
+
+.projects-section {
+	margin: 40px 20px 0px 20px;
+}
+
+.announcements-section,
+.trending-section {
+	margin: 40px 0px 0px 0px;
+}
+
+.tab-title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
 .content {
 	display: grid;
 	grid-template: 1fr 1fr / 2.5fr 1fr;
@@ -216,7 +232,6 @@
 
 .projects-section {
 	grid-row: 1 / 3;
-	display: grid;
 }
 
 .projects-container {
@@ -224,8 +239,8 @@
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	column-gap: 20px;
 	row-gap: 26px;
-	align-items: center;
 	justify-items: center;
+	align-items: center;
 }
 
 .project {
