@@ -269,6 +269,15 @@
 	height: 2rem;
 }
 
+.interact img:hover {
+	cursor: pointer;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .announcements-section {
 	grid-row: 1 / 2;
 	grid-column: 2 /3;
