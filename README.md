@@ -23,6 +23,6 @@ This is a Admin Dashboard project created as part of The Odin Project's Intermed
 
 ## Screenshot
 
-![Admin Dashboard Screenshot](./screenshots/project_v1.png)
+![Admin Dashboard Screenshot](./screenshots/project.png)
 
 > **Note**: This project is not completely finished to my liking and may undergo further improvements in the future.
