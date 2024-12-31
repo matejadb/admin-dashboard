@@ -257,6 +257,10 @@
 	gap: 10px;
 }
 
+.project p {
+	color: #6b6b6b;
+}
+
 .interact {
 	display: flex;
 	gap: 15px;
@@ -286,8 +290,8 @@
 .announcements-container {
 	background-color: #ffffff;
 	display: grid;
-	height: 350px;
-	width: 300px;
+
+	width: 350px;
 	border-radius: 25px;
 	padding: 20px;
 	align-items: center;
@@ -295,6 +299,22 @@
 }
 
 .announcement {
+	width: 250px;
+	border-bottom: 1px solid gray;
+}
+
+.announcement h3 {
+	margin-top: 20px;
+}
+
+.announcement p {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #6b6b6b;
+}
+
+.announcement:last-child {
+	border: none;
 }
 
 .trending-section {
@@ -304,7 +324,7 @@
 	background-color: #ffffff;
 	display: grid;
 	height: 350px;
-	width: 300px;
+	width: 350px;
 	align-items: center;
 	justify-items: center;
 	border-radius: 25px;
