@@ -99,6 +99,15 @@
 	gap: 20px;
 }
 
+.user-section a {
+	text-decoration: none;
+	color: black;
+}
+
+.user-section a:hover {
+	cursor: pointer;
+}
+
 .user-section img {
 	height: 5rem;
 	border-radius: 50%;
@@ -282,11 +291,6 @@
 	transform: scale(1.1);
 }
 
-.announcements-section {
-	grid-row: 1 / 2;
-	grid-column: 2 /3;
-}
-
 .announcements-container {
 	background-color: #ffffff;
 	display: grid;
@@ -326,9 +330,6 @@
 	border: none;
 }
 
-.trending-section {
-}
-
 .trending-container {
 	background-color: #ffffff;
 	display: grid;
@@ -337,14 +338,28 @@
 	align-items: center;
 	justify-items: center;
 	border-radius: 25px;
+	padding: 20px 0px;
 }
 
 .trending {
 	display: grid;
-	grid-template-columns: 0.2fr 1fr;
+	grid-template-columns: 0.1fr 1fr;
+	width: 250px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
 
 .trending img {
-	height: 3rem;
+	height: 3.5rem;
 	border-radius: 50%;
+}
+
+.trending p {
+	color: #6b6b6b;
+}
+
+.trending span {
+	color: black;
+	font-weight: bold;
 }
